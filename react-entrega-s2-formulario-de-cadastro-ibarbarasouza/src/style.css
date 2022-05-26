@@ -26,9 +26,16 @@ html {
 .form input {
   width: 300px;
   height: 40px;
-  margin: 10px;
   border-radius: 8px;
   border: 1px solid rgb(53, 53, 53);
+}
+
+.input {
+  height: 80px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 button {
@@ -63,4 +70,9 @@ button:hover {
   height: 250px;
   box-shadow: 0 0 0.5em white;
   border-radius: 8px;
+}
+
+.msg {
+  font-size: 11px;
+  color: red;
 }
