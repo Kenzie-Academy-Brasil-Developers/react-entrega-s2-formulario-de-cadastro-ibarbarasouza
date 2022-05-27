@@ -16,7 +16,7 @@ function Cadastro() {
       .max(15, "máximo 15 caracteres")
       .matches(
         "^(?=.*d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@!#])",
-        "Sua senha deve conter: *Uma letra maiúscula; *Um número; *Um caracter especial "
+        "Sua senha deve conter: *Uma letra maiúscula; * Uma letra minúscula; *Um número; *Um caracter especial "
       ),
 
     confirmar_senha: yup
