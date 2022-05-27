@@ -15,7 +15,7 @@ function Cadastro() {
       .min(8, "mínimo 8 caracteres")
       .max(15, "máximo 15 caracteres")
       .matches(
-        "^(?=.*d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@!#])",
+        "^(?=.*[a-z])(?=.*[A-Z])(?=.*d)(?=.*[@$!%*?&])[A-Za-zd@$!%*?&]{8,}$",
         "Sua senha deve conter: *Uma letra maiúscula; * Uma letra minúscula; *Um número; *Um caracter especial "
       ),
 
