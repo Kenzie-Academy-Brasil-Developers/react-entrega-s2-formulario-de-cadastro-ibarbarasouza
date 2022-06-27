@@ -1,7 +1,6 @@
 import { Route, Switch } from "react-router-dom";
 import Cadastro from "./pages/cadastro";
 import Welcome from "./pages/welcome";
-import style from "./style.css";
 
 function App() {
   return (
